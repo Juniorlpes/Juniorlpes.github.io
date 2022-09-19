@@ -22,7 +22,7 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    animationOptions.shuffle();
+    // animationOptions.shuffle();
     return Scaffold(
       body: Column(
         children: [
