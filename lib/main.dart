@@ -50,7 +50,8 @@ class MyApp extends StatelessWidget {
                   child: SizedBox(
                     height: 150,
                     child: Lottie.asset(
-                      'assets/animations/under-construction-${animationOptions[0]}.json',
+                      // 'assets/animations/under-construction-${animationOptions[0]}.json',
+                      'assets/animations/under-construction-2.json',
                     ),
                   ),
                 ),
