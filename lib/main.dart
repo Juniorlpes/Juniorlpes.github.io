@@ -4,6 +4,16 @@ import 'package:lottie/lottie.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:url_strategy/url_strategy.dart';
 
+///TODO: ** Configs **
+// internationalization, ...
+///TODO: Sessions
+// AppBar
+// Home
+// About me
+// Projects
+// Contact
+// Footer
+
 void main() {
   setPathUrlStrategy();
   runApp(MaterialApp(
@@ -30,13 +40,13 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const SelectableText(
+                const Text(
                   'Portifólio em construção :(',
                   style: TextStyle(
                     fontSize: 18,
                   ),
                 ),
-                const SelectableText(
+                const Text(
                   'e sem previsão para conclusão',
                   style: TextStyle(
                     fontSize: 9,
@@ -55,7 +65,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                const SelectableText('Links:'),
+                const Text('Links:'),
                 const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -83,7 +93,7 @@ class MyApp extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                SelectableText('Feito em Flutter '),
+                Text('Feito em Flutter '),
                 Icon(
                   Icons.favorite,
                   size: 20,
@@ -119,7 +129,7 @@ class MyApp extends StatelessWidget {
             color: Colors.white,
           ),
           const SizedBox(width: 4),
-          SelectableText(label),
+          Text(label),
         ],
       ),
     );
