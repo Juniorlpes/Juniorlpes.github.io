@@ -30,13 +30,13 @@ class MyApp extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                const Text(
+                const SelectableText(
                   'Portifólio em construção :(',
                   style: TextStyle(
                     fontSize: 18,
                   ),
                 ),
-                const Text(
+                const SelectableText(
                   'e sem previsão para conclusão',
                   style: TextStyle(
                     fontSize: 9,
@@ -55,7 +55,7 @@ class MyApp extends StatelessWidget {
                     ),
                   ),
                 ),
-                const Text('Links:'),
+                const SelectableText('Links:'),
                 const SizedBox(height: 16),
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
@@ -83,7 +83,7 @@ class MyApp extends StatelessWidget {
             child: Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                Text('Feito em Flutter '),
+                SelectableText('Feito em Flutter '),
                 Icon(
                   Icons.favorite,
                   size: 20,
@@ -119,7 +119,7 @@ class MyApp extends StatelessWidget {
             color: Colors.white,
           ),
           const SizedBox(width: 4),
-          Text(label),
+          SelectableText(label),
         ],
       ),
     );
