@@ -64463,7 +64463,7 @@ return A.a0($async$us,r)}}
 A.a0b.prototype={}
 A.GP.prototype={
 a2(a,b){var s=null,r=t.J
-return new A.yk(A.aiR(A.a([new A.Fc(1,B.mf,A.aiR(A.a([B.IA,B.Iy,new A.k_(B.C7,A.o2(new A.wO(new A.D7("assets/animations/under-construction-2.json",s,s,s),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s),150,s),s),B.Iz,B.JX,A.a1L(A.a([this.FJ(B.zd,"assets/icons/github.svg","GitHub","https://github.com/Juniorlpes"),B.JV,this.FJ(B.za,"assets/icons/linkedin.svg","LinkedIn","https://www.linkedin.com/in/junior-lps/")],r),B.fA,B.c4)],r),B.fA,B.c4),s),A.o2(A.a1L(B.Dy,B.fA,B.c4),50,s)],r),B.fz,B.c4),s)},
+return new A.yk(A.aiR(A.a([new A.Fc(1,B.mf,A.aiR(A.a([B.Iz,B.Iy,new A.k_(B.C7,A.o2(new A.wO(new A.D7("assets/animations/under-construction-2.json",s,s,s),s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s,s),150,s),s),B.IA,B.JX,A.a1L(A.a([this.FJ(B.zd,"assets/icons/github.svg","GitHub","https://github.com/Juniorlpes"),B.JV,this.FJ(B.za,"assets/icons/linkedin.svg","LinkedIn","https://www.linkedin.com/in/junior-lps/")],r),B.fA,B.c4)],r),B.fA,B.c4),s),A.o2(A.a1L(B.Dy,B.fA,B.c4),50,s)],r),B.fz,B.c4),s)},
 FJ(a,b,c,d){var s,r=null,q=A.aja(r,r,r,r,r,r,r,r,r,r,r,a,r,r,r,r,r,r),p=$.apv()
 $.ahq().toString
 s=p.$1(B.uU)
@@ -72575,9 +72575,9 @@ B.Iv=new A.r2(3,"bottom")
 B.Iw=new A.yv(null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Oj=new A.v(!0,null,null,null,null,null,9,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.Iy=new A.ke("e sem previs\xe3o para conclus\xe3o",B.Oj,B.d3,null)
-B.Iz=new A.ke("Links:",null,B.d3,null)
 B.Ok=new A.v(!0,null,null,null,null,null,18,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.IA=new A.ke("Portif\xf3lio em constru\xe7\xe3o :(",B.Ok,B.d3,null)
+B.Iz=new A.ke("Portf\xf3lio em constru\xe7\xe3o :(",B.Ok,B.d3,null)
+B.IA=new A.ke("Links:",null,B.d3,null)
 B.b7=new A.fs(0,"tap")
 B.IB=new A.fs(1,"doubleTap")
 B.bA=new A.fs(2,"longPress")
